@@ -1,14 +1,27 @@
-cordova-media-generator
-=======================
+cordova-media-gen
 
-CLI Utility that generates Cordova / Phonegap image assets required for app store submission, icons, and splash screens.
+[![Build Status](https://travis-ci.org/hypery2k/cordova-media-generator.svg?branch=master)](https://travis-ci.org/hypery2k/cordova-media-generator) [![npm version](https://badge.fury.io/js/cordova-media-gen.svg)](http://badge.fury.io/js/cordova-media-generator) [![Dependency Status](https://david-dm.org/hypery2k/cordova-media-generator.svg)](https://david-dm.org/hypery2k/cordova-media-generator) [![devDependency Status](https://david-dm.org/hypery2k/cordova-media-generator/dev-status.svg)](https://david-dm.org/hypery2k/cordova-media-generator#info=devDependencies) 
+
+> CLI Utility that generates Cordova / Phonegap image assets required for app store submission, icons, and splash screens. 
+
 It requires your logo to have a solid background colour but does not distort or lose any image content so everything is at the maximum size without loss.
 
-## New in v0.3.0 - Support for screenshots courtesy of PhantomJS
+## Installation
 
-Usage:
 
-with NodeJS installed:
+Need imagemagick
+
+On Debian/Ubuntu:
+
+```bash
+sudo apt-get install imagemagick
+```
+
+on OS X:
+
+```bash
+brew install imagemagick
+```
 
 ```bash
 $ npm install -g cordova-media-generator
