@@ -1,8 +1,11 @@
-cordova-media-gen
+# cordova-media-gen
 
 [![Build Status](https://travis-ci.org/hypery2k/cordova-media-generator.svg?branch=master)](https://travis-ci.org/hypery2k/cordova-media-generator) [![npm version](https://badge.fury.io/js/cordova-media-gen.svg)](http://badge.fury.io/js/cordova-media-generator) [![Dependency Status](https://david-dm.org/hypery2k/cordova-media-generator.svg)](https://david-dm.org/hypery2k/cordova-media-generator) [![devDependency Status](https://david-dm.org/hypery2k/cordova-media-generator/dev-status.svg)](https://david-dm.org/hypery2k/cordova-media-generator#info=devDependencies) 
 
 > CLI Utility that generates Cordova / Phonegap image assets required for app store submission, icons, and splash screens. 
+
+
+[![NPM](https://nodei.co/npm/cordova-media-gen.png)](https://nodei.co/npm/cordova-media-gen/)
 
 It requires your logo to have a solid background colour but does not distort or lose any image content so everything is at the maximum size without loss.
 
