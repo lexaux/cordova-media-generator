@@ -8,7 +8,6 @@ It requires your logo to have a solid background colour but does not distort or 
 
 ## Installation
 
-
 Need imagemagick
 
 On Debian/Ubuntu:

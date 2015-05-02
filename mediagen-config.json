@@ -1,21 +1,21 @@
 {
     "mediaPath": "media",
     "icon": {
-        "filename": "icon.png",
+        "filename": "images/icon.png",
         "background": "fff"
     },
     "splash": {
-        "filename": "splash.png",
+        "filename": "images/splash.png",
         "background": "fff"
     },
     "customImages": [
         {
             "width": 120,
             "height": 120,
-            "path": "../Media/custom",
+            "path": "../media/custom",
             "filename": "outputFilename.png",
             "source": {
-                "filename": "image.png",
+                "filename": "images/image.png",
                 "background": "fff"
             }
         }

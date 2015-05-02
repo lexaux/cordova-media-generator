@@ -1,8 +1,6 @@
-*.jpg
-*.png
-*.svg
-*.gif
 /ios/*
 /android/*
+/Media
 /node_modules
 npm-debug.log
+

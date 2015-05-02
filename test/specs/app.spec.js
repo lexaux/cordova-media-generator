@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var mediaGen = require('../media-gen');
+var mediaGen = require('../../cordova-media-gen');
 
 
 describe('main app', function () {

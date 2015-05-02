@@ -1,4 +1,4 @@
-var screenshots = require('../screenshots'),
+var screenshots = require('../../screenshots'),
   assert = require("chai").assert,
   should = require('chai').should(),
   expect = require('chai').expect,
