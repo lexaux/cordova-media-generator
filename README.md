@@ -26,7 +26,7 @@ brew install imagemagick
 ```
 
 ```bash
-$ npm install -g cordova-media-generator
+$ npm install -g cordova-media-gen
 ```
 
 Once installed, cd to the root of your Cordova application and run:
