@@ -1,4 +1,5 @@
 {
+    "mediaPath": "media",
     "icon": {
         "filename": "icon.png",
         "background": "fff"
