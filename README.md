@@ -28,17 +28,24 @@ $ npm install -g cordova-media-generator
 
 Once installed, cd to the root of your Cordova application and run:
 ```bash
-$ mediagen <logofilename.jpg> <backgroundcolourinhex-egFFF>
+$ cordova-media-gen <logofilename.jpg> <backgroundcolourinhex-egFFF>
 ```
 
-EXAMPLE:
+### example
+
 ```bash
-$ mediagen logo.jpg fff
+$ cordova-media-gen logo.jpg fff
+```
+
+To create the config 
+
+```bash
+$ cordova-media-gen init
 ```
 
 If you have created a `mediagen-config.json` file (see below), you can just run:
 ```bash
-$ mediagen
+$ cordova-media-gen
 ```
 
 This will overwrite all logos and splash screen images in the `<projectdir>/platforms` directory with the correct sizes and in the correct location for Cordova (As at 3.5)
@@ -51,7 +58,7 @@ You can create additional custom images if you need to submit to alternative app
 
 Simply go to your project directory and run
 ```bash
-$ mediagen init
+$ cordova-media-gen init
 ```
 
 It will create an example file called `mediagen-config.json` which you can now edit. Add as many or few files as you need to the array.
@@ -97,7 +104,3 @@ The config variables are below:
 - screenshots: An array of screenshot objects
     - url: url to your local development server
     - name: name of the page for easy reference later on
-
-##Changelog
-v0.3.6 - Added support for icon-60@3x, 667h Portrait, 736h Landscape, 736h Portrait
-v0.3.5 - Fix crash if no screenshots are specified
