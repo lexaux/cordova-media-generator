@@ -68,9 +68,10 @@ It will create an example file called `mediagen-config.json` which you can now e
 
 > Note: The default path for files is the `<projectdir>/platforms` directory, you might need to use `../` as in the example below
 
-###Example `mediagen-config.json`
+### Example `mediagen-config.json`
 ```javascript
-{
+{    
+    "mediaPath": "media",
     "icon": {"filename":"icon.png","background":"fff"},
     "splash": {"filename":"splash.png","background":"fff"},
     "customImages": [
@@ -82,14 +83,14 @@ It will create an example file called `mediagen-config.json` which you can now e
 }
 ```
 
-##Screenshots (Experimental)
+## Screenshots (Experimental)
 Screenshots are a new feature that use PhantomJS to quickly generate a number of the screenshot assets you need when submitting to the app store. You need your local development server running when you execute `mediagen` so it can access the Cordova versions of the files. Of course this won't be able to access a number of things in lots of apps but hopefully it should get you up on the app store pretty quickly.
 This is still pretty experimental, and also please be aware that it may seem to hang for a minute or so before you see the screenshots being generated (it does need to visit the page each time!)
 
 
-##Config
+## Config
 The config variables are below:
-
+- mediaPath: path to the output folder
 - icon: icon image
     - filename: path to source filename
     - background: solid colour in hex
