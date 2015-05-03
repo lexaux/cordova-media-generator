@@ -5,6 +5,7 @@ node_js:
   - "0.8"
 script:
   - npm install . -g
+  - ./runIntegrationTests.sh
 before_install:
   - npm install -g npm 
   - npm install -g cordova

@@ -1,6 +1,6 @@
 var screenshots = require('../../screenshots'),
   assert = require("chai").assert,
-  should = require('chai').should(),
+  should = require('chai').should,
   expect = require('chai').expect,
   chai = require("chai"),
   chaiAsPromised = require("chai-as-promised"),
@@ -12,7 +12,7 @@ var settings = {
   url: 'http://www.google.com',
   width: 1280,
   height: 720,
-  path: "Media/Google",
+  path: "images/Google",
   fileName: '7Inch.png'
 };
 
