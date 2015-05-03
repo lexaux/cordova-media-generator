@@ -1,6 +1,6 @@
 {
   "name": "cordova-media-gen",
-  "version": "0.5.2",
+  "version": "0.5.3-dev",
   "description": "Generates Cordova Media (Splashscreens, Icons & Screenshots)",
   "main": "cordova-media-gen.js",
   "scripts": {
