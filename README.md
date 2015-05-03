@@ -2,8 +2,9 @@
 
 [![Build Status](https://travis-ci.org/hypery2k/cordova-media-generator.svg?branch=master)](https://travis-ci.org/hypery2k/cordova-media-generator) [![npm version](https://badge.fury.io/js/cordova-media-gen.svg)](http://badge.fury.io/js/cordova-media-generator) [![Dependency Status](https://david-dm.org/hypery2k/cordova-media-generator.svg)](https://david-dm.org/hypery2k/cordova-media-generator) [![devDependency Status](https://david-dm.org/hypery2k/cordova-media-generator/dev-status.svg)](https://david-dm.org/hypery2k/cordova-media-generator#info=devDependencies) 
 
-> CLI Utility that generates Cordova / Phonegap image assets required for app store submission, icons, and splash screens. 
+[![Bountysource](https://www.bountysource.com/badge/tracker?tracker_id=11673029)](https://www.bountysource.com/trackers/11673029-hypery2k-cordova-media-generator?utm_source=11673029&utm_medium=shield&utm_campaign=TRACKER_BADGE) [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=mreinhardt&url=https://github.com/hypery2k/cordova-media-gen&title=badges&language=&tags=github&category=software)
 
+> CLI Utility that generates Cordova / Phonegap image assets required for app store submission, icons, and splash screens. 
 
 [![NPM](https://nodei.co/npm/cordova-media-gen.png)](https://nodei.co/npm/cordova-media-gen/)
 
