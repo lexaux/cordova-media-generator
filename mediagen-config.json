@@ -19,6 +19,7 @@
             }
         }
     ],
+    "excludeImageSets": [],
     "screenshots": [
         {
             "url": "http://www.google.com",
