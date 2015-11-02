@@ -78,8 +78,10 @@ function resize(width, height, bgColour, imagePath, outputFilename, outputPath) 
 function generate() {
     var deferred = q.defer();
 
+    //console.log("Operating in directory " + process.cwd());
 
     fs.readdir(path.join(process.cwd(), "platforms", "ios"), function (err, result) {
+        //console.log('got xcodeprojects: ' + JSON.stringify(result, null, 2));
         if (err) {
             console.log("Error getting iOS path", err);
         } else {
@@ -582,6 +584,7 @@ function generate() {
                 console.log('Only generating for following sets: ' + _(imageSetsToRetain).join(", "));
             } else {
                 console.log('Generating all sets of images: ' + _(images).keys().join(","));
+                console.log('You can remove some of them using EXCLUDE_IMAGE_SETS=comma_separated_list env variable');
                 imagesArray = _(images).values().flatten().value();
             }
 
